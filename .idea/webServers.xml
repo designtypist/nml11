@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="251fcf7f-926d-4019-89f1-4e3bdfb1b584" name="scweb.ca" url="http://scweb.ca">
+        <fileTransfer host="scweb.ca" port="22" rootFolder="/home/w0650451" accessType="SFTP" username="w0650451">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0030340b-bc13-4760-b38c-16509ad3b24f" name="itc" url="http://stclairitc.ca">
+        <fileTransfer host="stclairitc.ca" port="22" rootFolder="/www/html/stclairitc" accessType="SFTP" username="itc">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
